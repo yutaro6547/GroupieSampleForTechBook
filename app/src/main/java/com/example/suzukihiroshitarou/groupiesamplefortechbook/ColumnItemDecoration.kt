@@ -18,9 +18,9 @@ class ColumnItemDecoration constructor(margin: Int) : RecyclerView.ItemDecoratio
         val adapterPosition: Int = parent.getChildAdapterPosition(view)
         if (adapterPosition != 0) {
             when(adapterPosition % 3) {
-                0 -> outRect.set(margin / 2, margin, margin, margin)
-                1 -> outRect.set(margin, margin, margin / 2, margin)
-                else -> outRect.set(margin / 2, margin, margin / 2, margin)
+                0 -> outRect.set(margin / 2, margin / 2, margin, margin / 2)
+                1 -> outRect.set(margin, margin / 2, margin / 2, margin / 2)
+                else -> outRect.set(margin / 2, margin / 2, margin / 2, margin / 2)
             }
         }
     }
