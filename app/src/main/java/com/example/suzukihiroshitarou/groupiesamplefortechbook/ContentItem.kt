@@ -5,7 +5,7 @@ import com.example.suzukihiroshitarou.groupiesamplefortechbook.databinding.ItemC
 import com.xwray.groupie.databinding.BindableItem
 
 
-class ContentItem(@DrawableRes private val drawableId: Int): BindableItem<ItemContentBinding>() {
+open class ContentItem(@DrawableRes private val drawableId: Int): BindableItem<ItemContentBinding>() {
 
     override fun bind(viewBinding: ItemContentBinding, position: Int) {
         viewBinding.contentPanel.setImageResource(drawableId)
