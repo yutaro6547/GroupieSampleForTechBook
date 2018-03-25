@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() {
         applicationContext.resources.obtainTypedArray(R.array.image_list)
     }
 
+    companion object {
+        const val MARGIN = 32
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val groupAdapter = GroupAdapter<ViewHolder>().apply {
@@ -42,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             layoutManager = GridLayoutManager(context, groupAdapter.spanCount).apply {
                 spanSizeLookup = groupAdapter.spanSizeLookup
             }
+            addItemDecoration(ColumnItemDecoration(MARGIN))
             adapter = groupAdapter
         }
     }
