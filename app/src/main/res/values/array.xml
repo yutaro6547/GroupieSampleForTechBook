@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image_list">
+        <item>@drawable/item_cafe</item>
+        <item>@drawable/item_chocolate</item>
+        <item>@drawable/item_fruits</item>
+        <item>@drawable/item_deer</item>
+        <item>@drawable/item_girl</item>
+        <item>@drawable/item_menu</item>
+        <item>@drawable/item_orange</item>
+        <item>@drawable/item_papurika</item>
+        <item>@drawable/item_potato</item>
+        <item>@drawable/item_tapioka</item>
+        <item>@drawable/item_yasai</item>
+        <item>@drawable/item_soft</item>
+    </array>
+</resources>

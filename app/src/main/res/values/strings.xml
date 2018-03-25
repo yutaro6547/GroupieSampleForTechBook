@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GroupieSampleForTechBook</string>
+    <string name="test_title">Test Header Title</string>
+    <string name="test_sub_title">Test Sub Title</string>
+</resources>
